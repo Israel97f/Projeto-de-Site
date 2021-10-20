@@ -14,23 +14,78 @@
 }
 
 body{
-    background-color: rgb(29, 29, 29);
+    background-image: url("../imagens/pexels-kai-pilger-1341279.jpg");
+    background-attachment: fixed;
 }
 
 header{
     background-color: white;
+    text-align: left;
+    height: 60px;    
+}
+
+header > nav{
+    width: 300px;
+    text-align: right;
+    margin-top: 20px;
+    float: right;
+}
+
+header > p{
+    display: inline;
+    font-size: 2em;
+    position: relative;
+    bottom: 20%;
+}
+
+header a{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor05);
+}
+
+header div{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+header > div > img{
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
 }
 
 main{
-    background-image: url("imagens/pexels-kai-pilger-1341279.jpg");
-    width: 1300px;
+    color: white;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+    min-height: 800px;
+}
+
+main div h1{
+    font-size: 2.5em;
+} 
+
+main div p{
+    font-size: 1.8em;
+}
+
+main > div{
+    text-align: center;
+    width: 400px;
+    margin: 250px auto;
+    padding: 1px;
 }
 
 footer{
+    font-size: 0.8em;
     text-align: center;
     color: white;
     background-color: var(--cor01);
+    padding: 10px;
 }
