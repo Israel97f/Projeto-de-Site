@@ -4,8 +4,20 @@
 
 }
 
+:root{
+    --cor01: #545151;
+    --cor02: #687B85;
+    --cor03: #BCC9CF;
+    --cor04: #DCE0E2;
+    --cor05: #83B2C3;
+}
+
 body{
     background-color: rgb(29, 29, 29);
+}
+
+header{
+    background-color: white;
 }
 
 main{
@@ -14,4 +26,10 @@ main{
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: var(--cor01);
 }
