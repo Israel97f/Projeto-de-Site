@@ -51,6 +51,11 @@ a{
     color: var(--cor05);
 }
 
+a:hover{
+    color: var(--cor01);
+    text-decoration: underline;
+}
+
 header div{
     margin-top: 5px;
     display: inline-block;
@@ -75,12 +80,12 @@ button{
 
 button:hover{
     background-color: var(--cor01);
+    cursor: pointer;
 }
 
 main{
     color: white;
     margin: auto;
-    padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
     min-height: 800px;
 }
@@ -96,8 +101,16 @@ main div p{
 main > div{
     text-align: center;
     width: 400px;
-    margin: 250px auto;
+    margin: 250px auto 400px auto;
     padding: 1px;
+}
+
+main > aside{
+    column-count: 2;
+    background-color: var(--cor04);
+    color: var(--cor01);
+    padding: 10px;
+    min-height: 400px;
 }
 
 footer{
@@ -106,4 +119,8 @@ footer{
     color: white;
     background-color: var(--cor01);
     padding: 10px;
+}
+
+footer a:hover{
+    color: black;
 }
