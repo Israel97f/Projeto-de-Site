@@ -106,7 +106,7 @@ main > div{
 }
 
 main > aside{
-    column-count: 2;
+    column-count: 3;
     background-color: var(--cor04);
     color: var(--cor01);
     padding: 10px;
