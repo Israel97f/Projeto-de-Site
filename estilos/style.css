@@ -124,3 +124,30 @@ footer{
 footer a:hover{
     color: black;
 }
+
+
+.imagens {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.imagens img {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.imagens img:nth-child(1) {
+    top: 0;
+    left: 0;
+    transform: rotate(10deg);
+}
+
+.imagens img:nth-child(2) {
+    top: 20px;
+    left: 20px;
+    transform: rotate(-10deg);
+}
